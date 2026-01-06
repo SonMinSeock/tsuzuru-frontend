@@ -1,9 +1,8 @@
+import { RouterProvider } from 'react-router-dom';
+import { router } from './app/router';
+
 function App() {
-  return (
-    <>
-      <h1>tsuzuru 프로젝트</h1>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
